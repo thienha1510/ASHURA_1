@@ -31,6 +31,10 @@ html::-webkit-scrollbar-thumb {
   background: #ff5421;
 }
 
+.nav__logo-img{
+  width: 5rem;
+}
+
 body {
   background: #1d0e15;
 }
@@ -171,6 +175,40 @@ section {
 }
 
 .about ul li i {
+  padding-right: 1rem;
+  color: #ff5421;
+}
+
+.login span {
+  font-size: 2.5rem;
+  color: #ff5421;
+}
+
+.login h3 {
+  font-size: 2.7rem;
+  text-transform: capitalize;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.login p {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #ccc;
+}
+
+.login ul {
+  list-style: none;
+}
+
+.login ul li {
+  padding-top: 1.5rem;
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.login ul li i {
   padding-right: 1rem;
   color: #ff5421;
 }
